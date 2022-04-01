@@ -121,3 +121,15 @@
 // console.log(text1.padStart(4, 4));
 // console.log(text1.charAt(0));
 // console.log(text1.split(","));
+
+// let date = new Date("12-05-2021");
+// console.log(date.getDate());
+
+// let a = -1;
+// try {
+//     if (a < 0) { 
+//         throw "User not found";
+//     }
+// } catch(error) {
+//     console.log(error)
+// }
