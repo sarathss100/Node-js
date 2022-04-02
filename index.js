@@ -133,3 +133,53 @@
 // } catch(error) {
 //     console.log(error)
 // }
+
+// let str = "Please locate where 'locate' occurs";
+// console.log(str.indexOf("locate"));
+// console.log(str.lastIndexOf("locate"));
+// console.log(str.search("locate"));
+
+// let text = "The rain in Spain stays mainly in the plain";
+// console.log(text.match(/ain/g));
+// console.log(text.includes("rain"));
+// console.log(text.startsWith("The"));
+// console.log(text.endsWith("plain"));
+
+// const firstName = "Jhon";
+// const lastName = "Doe";
+// console.log(`My first name is ${firstName} and my last name is ${lastName}`);
+
+// const price = 10;
+// const VAT = 0.25;
+// console.log(`Total : ${(price * (1 + VAT)).toFixed(2)}`);
+
+// const price = 100;
+// console.log(price);
+
+// class messageDisplay {
+//     message () {
+//         console.log("Hello");
+//     }
+// }
+
+// class display extends messageDisplay {
+//     constructor(num1, num2) {
+//         super();
+//         this.num1 = num1;
+//         this.num2 = num2;
+//     }
+//     sum () {
+//         console.log(`Result is : ${this.num1 + this.num2}`);
+//     }
+// }
+
+// let value = new display(20, 10);
+// value.sum();
+
+function sum(num1, num2) {
+    return num1 + num2;
+}
+let value = (num1, num2) => num1 + num2;
+
+console.log(sum(10, 20));
+console.log(value(20,50));
