@@ -176,10 +176,103 @@
 // let value = new display(20, 10);
 // value.sum();
 
-function sum(num1, num2) {
-    return num1 + num2;
-}
-let value = (num1, num2) => num1 + num2;
+// function sum(num1, num2) {
+//     return num1 + num2;
+// }
+// let value = (num1, num2) => num1 + num2;
 
-console.log(sum(10, 20));
-console.log(value(20,50));
+// console.log(sum(10, 20));
+// console.log(value(20,50));
+
+// let num1 = 0.2;
+// let num2 = 0.1;
+// console.log(num1 + num2);
+
+// let num1 = 10;
+// let num2 = 20;
+// console.log(`Result is : ${num1 + num2}`);
+
+// let num1 = "20";
+// let num2 = "30";
+// let num3 = 5;
+// let fruit = "Apple";
+// let sum = num1 * num2;
+// console.log(sum);
+// sum = num1 - fruit;
+// console.log(sum);
+// sum = num2 / num3;
+// console.log(sum);
+
+// let num = 10;
+// while (num != Infinity) {
+//     num *= num;
+//     console.log(num);
+// }
+
+// let num = new Number(10);
+// console.log(typeof num);
+
+// let num1 = new Number(10);
+// let num2 = new Number(20);
+// console.log(num1 === num2);
+
+// const num = 10;
+// const num1 = num.toString();
+// console.log(typeof num);
+// console.log(typeof num1);
+// let floatNumber = 10.566;
+// let value = floatNumber.toExponential(0);
+// console.log(typeof value);
+// console.log(value);
+// let value1 = floatNumber.toFixed(0);
+// console.log(value1);
+
+// let dt = new Date();
+// console.log("Hello world!");
+// for (let i = 0; i < 100; i++) {
+//     console.log("Loop");
+// }
+// console.log("End");
+// let dt2 = new Date() - dt;
+// console.log(dt2);
+
+// function longTask(milliSeconds) {
+//     dt = new Date();
+//     while ((new Date() - dt) <= milliSeconds) {
+//     }
+// }
+
+// console.log("Started");
+// longTask(4000);
+// console.log("Finished");
+
+// console.log("Started");
+// longTask(4000);
+// console.log("Finished");
+
+// console.log("Started");
+// longTask(4000);
+// console.log("Finished");
+
+// function showEnd() {
+//     console.log("Finished");
+// }
+
+// console.log("Started");
+// setTimeout(showEnd, 4000);
+
+// console.log("Started");
+// setTimeout(showEnd, 4000);
+
+// console.log("Started");
+// setTimeout(showEnd, 4000);
+
+let hello = (data) => {
+    console.log(`Data : ${data}`);
+}
+
+let second = (callback) => {
+    callback("This is callback");
+}
+
+second(hello);
